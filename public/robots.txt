@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /frames/
+Allow: /static/
+
+Sitemap: https://aurelia-residence.pages.dev/sitemap.xml

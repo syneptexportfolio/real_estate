@@ -1,0 +1,3 @@
+# Cloudflare Pages Redirects
+# Ensure clean single-page routing without 404s
+/*    /index.html   200

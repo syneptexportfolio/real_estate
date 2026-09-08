@@ -1,0 +1,59 @@
+:root {
+  /* Color Palette — Luxury Black / Ivory / Travertine Rhythm */
+  --ink: #0B0A09;
+  --ink-surface: #141312;
+  --ink-elevated: #1D1B1A;
+  --ink-card: rgba(20, 19, 18, 0.75);
+
+  --ivory: #FAF8F5;
+  --cream: #F3EFEA;
+  --travertine-light: #EBE6DE;
+  --travertine: #DDD6C8;
+  --travertine-dark: #C5BCAC;
+
+  --oak: #9E7D58;
+  --bronze: #C2A684;
+  --bronze-glow: rgba(194, 166, 132, 0.25);
+  --bronze-dark: #7A5F3F;
+
+  --text-primary-dark: #FAF8F5;
+  --text-secondary-dark: #A9A49C;
+  --text-tertiary-dark: #6C6861;
+
+  --text-primary-light: #141312;
+  --text-secondary-light: #5C5850;
+  --text-tertiary-light: #8E8A81;
+
+  --line-dark: rgba(255, 255, 255, 0.08);
+  --line-dark-strong: rgba(255, 255, 255, 0.16);
+  --line-light: rgba(0, 0, 0, 0.08);
+  --line-light-strong: rgba(0, 0, 0, 0.16);
+
+  /* Typography */
+  --font-display: 'Cinzel', 'Playfair Display', serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Spacing Scale */
+  --space-xs: 0.5rem;    /* 8px */
+  --space-sm: 1rem;      /* 16px */
+  --space-md: 1.5rem;    /* 24px */
+  --space-lg: 2.5rem;    /* 40px */
+  --space-xl: 4rem;      /* 64px */
+  --space-2xl: 7rem;     /* 112px */
+  --space-3xl: 10rem;    /* 160px */
+
+  /* Layout Containers */
+  --container-max: 1440px;
+  --container-pad: clamp(1.25rem, 5vw, 4rem);
+
+  /* Transitions & Easing */
+  --ease-luxury: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 0.2s var(--ease-luxury);
+  --transition-standard: 0.4s var(--ease-luxury);
+  --transition-slow: 0.8s var(--ease-luxury);
+
+  /* Elevation */
+  --shadow-subtle: 0 4px 20px rgba(0, 0, 0, 0.25);
+  --shadow-elevated: 0 20px 40px rgba(0, 0, 0, 0.4);
+  --blur-nav: blur(16px);
+}
